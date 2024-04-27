@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 env_file="/app/frontend/.env"
 
