@@ -4,6 +4,8 @@ services:
     autoDeploy: false
     repo: https://github.com/HiEventsDev/hi.events-render.com.git
     envVars:
+      - key: PORT
+        value: 5678
       - key: DATABASE_URL
         fromDatabase:
           name: hi-events-db
