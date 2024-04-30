@@ -3,6 +3,7 @@ services:
     name: hi-events
     plan: free
     autoDeploy: false
+    runtime: docker
     repo: https://github.com/HiEventsDev/hi.events-render.com.git
     envVars:
       - key: PORT
