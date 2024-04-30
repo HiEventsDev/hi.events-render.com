@@ -1,6 +1,7 @@
 services:
   - type: web
     name: hi-events
+    plan: free
     autoDeploy: false
     repo: https://github.com/HiEventsDev/hi.events-render.com.git
     envVars:
