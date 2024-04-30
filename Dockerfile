@@ -1,5 +1,5 @@
 FROM daveearley/hi.events-all-in-one
 
-COPY setEnv.sh /setEnv.sh
-RUN chmod +x /setEnv.sh
-RUN /setEnv.sh
+COPY render-start.sh /render-start.sh
+RUN chmod +x /render-start.sh
+RUN /render-start.sh
