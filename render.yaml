@@ -16,6 +16,12 @@ services:
         generateValue: true
       - key: JWT_SECRET
         generateValue: true
+      - key: LOG_CHANNEL
+        value: stderr
+      - key: QUEUE_CONNECTION
+        value: sync
+      - key: MAIL_MAILER
+        value: array
 databases:
   - name: hi-events-db
     plan: free
