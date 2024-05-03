@@ -14,6 +14,8 @@ services:
           property: connectionString
       - key: APP_KEY
         generateValue: true
+      - key: JWT_SECRET
+        generateValue: true
 databases:
   - name: hi-events-db
     plan: free
