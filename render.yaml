@@ -22,6 +22,10 @@ services:
         value: sync
       - key: MAIL_MAILER
         value: array
+      - key: FILESYSTEM_PUBLIC_DISK
+        value: public
+      - key: FILESYSTEM_PRIVATE_DISK
+        value: local
 databases:
   - name: hi-events-db
     plan: free
