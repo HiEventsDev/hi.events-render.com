@@ -2,10 +2,10 @@
 
 if [ -z "$RENDER_EXTERNAL_URL" ]; then
     export VITE_API_URL_CLIENT="/api"
-    export APP_CND_URL="/api/storage"
+    export APP_CND_URL="/storage"
 else
     export VITE_API_URL_CLIENT="${RENDER_EXTERNAL_URL}/api"
-    export APP_CND_URL="${RENDER_EXTERNAL_URL}/api/storage"
+    export APP_CND_URL="${RENDER_EXTERNAL_URL}/storage"
 fi
 
 export VITE_API_URL_SERVER=http://localhost:80/api
