@@ -1,4 +1,4 @@
-# hi.events Render
+# Hi.Events Render
 
 Deploy Hi.Events with one click on Render.
 
