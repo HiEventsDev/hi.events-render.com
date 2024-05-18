@@ -13,7 +13,7 @@ services:
           name: hi-events-db
           property: connectionString
       - key: APP_KEY
-        generateValue: true
+        value: base64:G/ZFls3twiNLjiGrC0W2Zs475ZWxH4UsuvAV4u24wOE=
       - key: JWT_SECRET
         generateValue: true
       - key: LOG_CHANNEL
