@@ -35,5 +35,3 @@ For detailed setup instructions, check [here](https://hi.events/docs/getting-sta
 ## 📜 Licensing
 
 This project is licensed under the terms specified [here](https://hi.events/licensing).
-
-If you'd like to remove the Hi.Events branding, you must [purchase a licence](https://hi.events/licensing).
